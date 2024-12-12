@@ -36,7 +36,7 @@ The **Smart Traffic Management System** is designed to manage traffic at a four-
 The **I2C protocol** allows for communication between two Arduino Unos in this project. One Arduino Uno acts as the **Master** and controls the traffic signals, while the other acts as the **Slave** and controls the ultrasonic sensors and toll gates.
 
 ### How I2C Works in This Project
-1. The **Master Arduino** reads data from the ultrasonic sensors to determine vehicle density and adjusts the traffic signals (green, orange, red) accordingly.
+1. The **Master Arduino** reads data from the ultrasonic sensors to determine vehicle density and adjusts the traffic signals (green, yellow, red) accordingly.
 2. The **Slave Arduino** controls the ultrasonic sensors for vehicle detection and operates the toll gates based on signals received from the Master.
 
 ### I2C Connections:
